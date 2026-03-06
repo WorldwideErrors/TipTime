@@ -1,24 +1,36 @@
-Tip Time - Solution Code
-=================================
+# Tip Time
 
-Starter code for the [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course): Tip Time app.
+The Tip Time app bevat verschillende UI elementen voor het berekenen van fooi, zo kun je er voor kiezen om de fooi af te ronden en zelf het percentage in te vullen. Deze opdracht stond in het teken van omgaan met user input en State in Compose.
+Deze opdracht komt uit de Kotlin Course van Google. [Unit 2, Pathway 3](https://developer.android.com/courses/pathways/android-basics-compose-unit-2-pathway-3). 
+De reden dat ik met deze course begonnen ben is om meer te leren te krijgen over hoe dat je apps bouwt in Android Studio. Ik wil de basis kennen, 
+zodat ik een goed oordeel kan geven over de leercurve van Kotlin in combinatie met Android Studio.
 
+---
 
-Introduction
-------------
-The Tip Time app contains various UI elements for calculating a tip,
-teaching about user input, and State in Compose.
+## 🚀 Features
+- Berekenen van verschillende percentages fooi op basis van het bedrag van de rekening
+- Bedragen van fooi af kunnen ronden zonder zelf te hoeven rekenen
 
+---
 
-Pre-requisites
---------------
-* Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
+## 🛠️ Tech Stack
 
+- **Language:** Kotlin
+- **UI:** Jetpack Compose
 
-Getting Started
----------------
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+---
+
+## 📦 Installation
+
+### Requirements
+
+- Android Studio: Otter (2025.2.1)
+- JDK: 11
+- Minimum SDK: 24
+- Target SDK: 36
+
+### Clone project
+
+```bash
+git clone https://github.com/WorldwideErrors/TipTime.git
+cd TipTime
